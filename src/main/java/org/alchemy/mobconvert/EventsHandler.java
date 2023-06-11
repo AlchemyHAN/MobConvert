@@ -11,7 +11,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 import java.util.Random;
 import java.util.logging.Logger;
 
-public final class EventsHandler extends JavaPlugin implements Listener {
+public final class EventsHandler implements Listener {
     Logger logger = Bukkit.getLogger();
 
     @EventHandler
