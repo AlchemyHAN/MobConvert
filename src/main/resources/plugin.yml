@@ -1,0 +1,3 @@
+name: MobConvert
+version: '${project.version}'
+main: org.alchemy.mobconvert.MobConvert
