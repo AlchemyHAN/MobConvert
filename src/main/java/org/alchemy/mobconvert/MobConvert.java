@@ -1,6 +1,7 @@
 package org.alchemy.mobconvert;
 
 import org.bukkit.Bukkit;
+import org.bukkit.entity.Player;
 import org.bukkit.plugin.java.JavaPlugin;
 
 import java.util.logging.Level;
@@ -13,7 +14,7 @@ public final class MobConvert extends JavaPlugin {
         // Plugin startup logic
         Bukkit.getPluginManager().registerEvents(new EventsHandler(), this);
         Logger logger = Bukkit.getLogger();
-        logger.log(Level.FINE, String.format("[%s] Enabled Version %s", Bukkit.getName(), Bukkit.getVersion()));
+        logger.info("[MobConvert] Enabled Version 1.0-SNAPSHOT");
     }
 
     @Override
